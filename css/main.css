@@ -1,0 +1,20 @@
+span.bigred {
+    font-size: 1.5em;
+    color: red;
+}
+
+span.blue {
+    font-size: 1em;
+    color: blueviolet;
+}
+
+.block {    /* inheritance */
+    color: goldenrod; /*   inherited */
+    font-size: 2em; /*   inherited */
+    border: 3px red dotted; /* NOT!  inherited */
+}
+
+.block > p {    /*  all p first child */
+    color: green;
+}
+
