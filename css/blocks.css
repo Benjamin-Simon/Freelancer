@@ -1,3 +1,13 @@
+.base .arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: lightcoral;
+}
+
+.base .whitespace {
+    white-space: nowrap;
+}
+
 .block span.bigred {
     font-size: 1.5em;
     color: red;
@@ -16,5 +26,9 @@
 
 .block > p {    /*  all p first child */
     color: green;
+}
+
+.block p:nth-child(2) {
+    line-height: 2em;
 }
 
