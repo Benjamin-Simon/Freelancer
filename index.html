@@ -32,6 +32,21 @@
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, eos.</p>
         </div>
     </div>
+    <section class="section-info">
+        +--------------------+----------------+-----------------+
+| Property           | occupies space | consumes clicks |
++--------------------+----------------+-----------------+
+| opacity: 0         |        ✓       |        ✓        |
++--------------------+----------------+-----------------+
+| visibility: hidden |        ✓       |        ✗        |
++--------------------+----------------+-----------------+
+| display: none      |        ✗       |        ✗        |
++--------------------+----------------+-----------------+
+
+✓: yes
+✗: no
+In essence "visibility: hidden" behaves like a combination of "opacity: 0" and "pointer-events: none".
+    </section>
 </body>
 
 </html>
