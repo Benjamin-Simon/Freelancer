@@ -1,0 +1,54 @@
+.header-etude {
+    height: 200px;
+    background-color: #ffffbd;
+    border: 50px solid #fbad80;
+}
+
+.h2-etude {
+    padding-top: 10%;
+    font-size: 3em;
+    color: mediumpurple;
+    background-color: #ffffbd;
+    border: 5px solid;
+}
+
+.h2-etude:hover {
+    background: mediumpurple;
+    color: wheat;
+    border: 5px solid;
+}
+
+.span-etude {
+    font-size: 3em;
+    border: 5px solid;
+}
+
+.base-etude {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    background-color: whitesmoke;
+    border: wheat solid 5px;
+}
+
+.rect-etude {
+    flex: 1 1 50%;
+    position: relative;
+    background-color: whitesmoke;
+    border: 10px solid tan;
+    border-radius: 10px;
+}
+
+.rect-etude:after {
+    position: absolute;
+    content: "";
+    width: 110%;
+    height: 110%;
+    top: 50%;
+    left: 50%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    
+}
