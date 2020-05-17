@@ -10,6 +10,7 @@
     color: mediumpurple;
     background-color: #ffffbd;
     border: 5px solid;
+    transition-duration: 2s;
 }
 
 .h2-etude:hover {
@@ -38,6 +39,8 @@
     background-color: whitesmoke;
     border: 10px solid tan;
     border-radius: 10px;
+    opacity: 0;
+    /* transition-duration: .1s; */
 }
 
 .rect-etude:after {
